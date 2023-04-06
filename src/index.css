@@ -1,0 +1,21 @@
+form{
+  display: grid;
+  width: 50%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.success, .error {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.success{
+  background-color: green;
+}
+.error{
+  background-color: red;
+}
